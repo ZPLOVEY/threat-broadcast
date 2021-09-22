@@ -73,7 +73,7 @@
 PS：如果邮箱的发送端口不是默认的`465`，比如`outlook`的邮箱默认是`587`,请修改：https://github.com/Mr-xn/threat-broadcast/blob/main/.github/workflows/autorun.yml#L35 处的`server_port`的值。
 - 启用 Settings --> Actions 功能
 
-> 尔后程序便会每小时执行一次，并自动生成 [Github Page](https://mr-xn.github.io/threat-broadcast/) 播报页面（若要调整执行频率，可修改 [`autorun.yml`](.github/workflows/autorun.yml) 的 `schedule` 触发时点）
+> 而后程序便会每小时执行一次，并自动生成 [Github Page](https://mr-xn.github.io/threat-broadcast/) 播报页面（若要调整执行频率，可修改 [`autorun.yml`](.github/workflows/autorun.yml) 的 `schedule` 触发时点）
 
 ![](imgs/secrets.png)
 
